@@ -3,12 +3,12 @@ import {
   UserGroupIcon,
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
-import BenefitsPageGraphic from "../../assets/BenefitsPageGraphic.png";
-import { BenefitType, SelectedPage } from "../../shared/types";
+import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
+import { BenefitType, SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import HText from "../../shared/HText";
+import HText from "@/shared/HText";
 import Benefit from "./Benefit";
-import ActionButton from "../../shared/ActionButton";
+import ActionButton from "@/shared/ActionButton";
 
 const benefits: Array<BenefitType> = [
   {
